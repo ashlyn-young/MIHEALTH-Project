@@ -1,0 +1,132 @@
+body{
+    max-width: 1384px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 142px;
+}
+.background{
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/Background\ pattern.png");
+    padding-bottom: 0%;
+}
+nav {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    /* display: flex;
+    gap: 3px;
+    justify-content: right; */
+
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-bottom:auto;
+    font-family: "Raleway" sans-serif;
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ffffff;
+    padding-right: 35px;
+    gap: 55px;
+    /* font-weight: bold; */
+    margin-top: 10px;
+}
+.red{
+    color: red;
+}
+.greenlogo{
+    color: #94dd27;
+}
+
+.item{
+    align-items: flex-start;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.photos{
+    display: flex;
+    gap: 15px;
+}
+
+.paragraphs {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    padding-left: 37px;
+    padding-right: 60px;
+    font-size: 20px;
+    
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 46pt;
+    font-weight: bolder;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+h2{
+    font-size: 15pt;
+    margin-top: auto;
+}
+
+.pictureText{
+    width: 100%;
+}
+h3{
+    margin: 0;
+    font-size: 19px;
+    font-weight: bold;
+}
+.wordsonimage{
+    /* width: fit-content; */
+    position: relative;
+    margin-top: -27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* background-color: #ffffff; */
+    margin-left: auto;
+}
+.wordsonimage h3{
+    width: fit-content;
+    background-color: #ffffff;
+}
+
+.wordsonimage .white{
+    background-color: white;
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.wordsonimage .green{
+    background-color: #94dd27;
+    width: 60%;
+    padding: 5px 10px 5px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.browsemenu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* nav a{
+    margin-right: 3px;
+} */
